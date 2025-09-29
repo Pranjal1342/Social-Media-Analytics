@@ -1,0 +1,57 @@
+[
+    {
+        "id": "youtube_mock_001",
+        "title": "Kerala Floods: Rescue operations underway in submerged areas of Alappuzha",
+        "description": "WATCH: Boats are being used to rescue stranded residents in the Kuttanad region of Kerala following incessant rains.",
+        "author": "India Today",
+        "source_url": "http://example.com/youtube/kerala_floods",
+        "platform": "youtube",
+        "media_url": "https://picsum.photos/seed/kerala_flood/600/400"
+    },
+    {
+        "id": "youtube_mock_002",
+        "title": "Uttarakhand Landslide BREAKING: Badrinath highway blocked, hundreds of pilgrims stranded",
+        "description": "A massive landslide triggered by heavy monsoon rains has blocked the primary route to the Badrinath shrine.",
+        "author": "NDTV",
+        "source_url": "http://example.com/youtube/uttarakhand_landslide",
+        "platform": "youtube",
+        "media_url": "https://picsum.photos/seed/landslide/600/400"
+    },
+    {
+        "id": "youtube_mock_003",
+        "title": "Cyclone Alert for Andhra Pradesh coast, storm expected to make landfall tomorrow",
+        "description": "The Indian Meteorological Department has issued a red alert for several coastal districts in Andhra Pradesh.",
+        "author": "Times of India",
+        "source_url": "http://example.com/youtube/andhra_cyclone",
+        "platform": "youtube",
+        "media_url": "https://picsum.photos/seed/cyclone/600/400"
+    },
+    {
+        "id": "youtube_mock_004",
+        "title": "Heatwave in Delhi breaks all-time records, temperatures soar past 50°C",
+        "description": "An unprecedented heatwave has gripped the national capital, leading to severe water shortages and health warnings.",
+        "author": "Hindustan Times",
+        "source_url": "http://example.com/youtube/delhi_heatwave",
+        "platform": "youtube",
+        "media_url": "https://picsum.photos/seed/heatwave/600/400"
+    },
+    {
+        "id": "youtube_mock_005",
+        "title": "Assam Flood situation remains grim, over 5 lakh people affected",
+        "description": "The Brahmaputra river continues to flow above the danger mark, inundating hundreds of villages across Assam.",
+        "author": "The Hindu",
+        "source_url": "http://example.com/youtube/assam_floods",
+        "platform": "youtube",
+        "media_url": "https://picsum.photos/seed/assam_flood/600/400"
+    },
+    {
+        "id": "youtube_mock_006_MISMATCH",
+        "title": "Earthquake tremors felt in Jaipur, residents rush out of homes. Official confirmation awaited.",
+        "description": "Rumors are spreading after mild tremors were reported in parts of Rajasthan. This video is being shared with the news.",
+        "author": "Zee News",
+        "source_url": "http://example.com/youtube/jaipur_earthquake",
+        "platform": "youtube",
+        "media_url": "https://picsum.photos/seed/kitten/600/400"
+    }
+]
+
