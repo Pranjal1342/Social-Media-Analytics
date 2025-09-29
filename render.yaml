@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: reasoning-agent
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python "reasoning agent/app.py"
+    envVars:
+      - key: NEO4J_URI
+        value: neo4j+s://ab88412c.databases.neo4j.io
+      - key: NEO4J_USER
+        value: neo4j
+      - key: NEO4J_PASSWORD
+        value: fF38IYJ5t11rEUYHSVuzS8aiKojPcGWNQXw0SKW4SG8
+      - key: CHROMA_HOST
+        value: localhost
+      - key: CHROMA_PORT
+        value: 8000

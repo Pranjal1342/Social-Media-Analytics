@@ -16,13 +16,15 @@ load_dotenv()
 NEO4J_URI = os.getenv("NEO4J_URI", "neo4j://localhost:7687")
 NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "fF38IYJ5t11rEUYHSVuzS8aiKojPcGWNQXw0SKW4SG8")
+CHROMA_HOST = os.getenv("CHROMA_HOST", "localhost")
+CHROMA_PORT = int(os.getenv("CHROMA_PORT", "8000"))
 
 # --- DATABASE CLIENTS ---
 print("Loading Sentence Transformer model for ChromaDB embeddings...")
 sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
 print("Sentence Transformer model loaded.")
 
-chroma_client = chromadb.HttpClient(host="localhost", port=8000)
+chroma_client = chromadb.HttpClient(host=CHROMA_HOST, port=CHROMA_PORT)
 chroma_collection = chroma_client.get_or_create_collection(
     name="verified_reports",
     embedding_function=sentence_transformer_ef
