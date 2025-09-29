@@ -9,11 +9,11 @@ services:
     envVars:
       - key: NEO4J_URI
         value: neo4j+s://ab88412c.databases.neo4j.io
-      - key: NEO4J_USER
+      - key: neo4j
         value: neo4j
-      - key: NEO4J_PASSWORD
+      - key: neo4j_password
         value: fF38IYJ5t11rEUYHSVuzS8aiKojPcGWNQXw0SKW4SG8
       - key: CHROMA_HOST
-        value: localhost
+        value: ${CHROMA_HOST}
       - key: CHROMA_PORT
-        value: 8000
+        value: ${CHROMA_PORT}
